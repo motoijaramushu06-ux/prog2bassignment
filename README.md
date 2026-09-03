@@ -273,6 +273,8 @@ UPDATE EventCategory
 SET entries_count = (SELECT COUNT(*) FROM ParticipantEntry WHERE event_category_id = EventCategory.event_category_id)
 WHERE event_category_id IN (SELECT event_category_id FROM ParticipantEntry);
 
+MY YOUTUBE LINK >> https://youtu.be/utMiRTqIP7E?si=I1hSBesaCZ1SGAFI
+
 
 
 
